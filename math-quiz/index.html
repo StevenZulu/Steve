@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179520923-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179520923-1');
+</script>
+
+	  
+	  <meta name='viewport' content='device-width, initial-scale=1.0, user-scalable=no'>
+	  <meta name='keyword' content='ZedCademy, Steven Zulu, StevenSanie, Math Solutions'>
+	  <meta name='description' content='Steven Sanie - Explore my mini projects I create with my little knowledge.'>
+	  
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  
+	  <link rel='stylesheet' href='../styles/main.css'>
+	  <link rel='stylesheet' href='./index.css'>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  
+	  <title> Math Quiz </title>
+	</head>
+<body>
+        <header>
+	    <h1><span id='ste'>Ste</span><span id='ven'>Ven</span><small> Math Quiz</small></h1>
+	    
+	    <nav id='top-nav'>
+	      <ul>
+	        <li> <a href='#feedback'> <i class='fa fa-envelope'></i></a> </li>
+	        <li> <a href='https://www.twitter.com/stevensanie' target='_blank'> <i id='menu-btn' class='fa fa-twitter'></i></a></li>
+	        <li><a href='../index.html'> <i class='fa fa-home'></i></a> </li>
+	        <li><a href='#' id='help'> <i class='fa fa-info-circle'></i></a> </li>
+	      </ul>
+	      
+	    </nav>
+	    
+	  </header>
+        
+        <div id='container'>
+            <div id='instructions'>
+                <h2> Having Trouble Playing? </h2>
+                <p> Just tap on <b>Start Quiz</b> 
+                and do the math that will pop
+                up on the screen.</p>
+                <ul>
+                    <li> Be fast.</li>
+                    <li> The more problems you solve, 
+                    the more points you gain </li>
+                    <li> Try to beat Nathan and Mongwa</li>
+                </ul>
+                
+                <h2> Privacy Policy </h2>
+                <p> This Program does not collect any personal information.</p>
+                <p> The program uses <b>Analytics Tools</b> to help us know how many people have
+                visited this program, and the technology used to access this program and how the program is been accssed.</p>
+                
+                <p> The Analytics Tool used is the <b>Google Analytics</b>, owned by Google.<br> (Read Google <a href='https://www.google.com/policies/technologies/' target='_Blank'>Privacy Policy</a>) </p>
+                <p> 
+                  
+                  <a href='#' id='hide'> Close </a>
+            </div>
+            
+            <div id='welcome'>
+               <h1> Improve You Brain Speed! </h1>
+               <!-- <a href='#' id='help'> Read Info </a> -->
+               <img src='../images/math.png' alt='illustration showing a man learning math'>
+            </div>
+            
+            <div id='wrongMark'>...</div>
+            <div id='timeMark'>...</div>
+            <button class='go-btn' id='start-btn'> Start Quiz <i class='fa fa-chevron-right'></i></button>
+            
+            <div id='results'>
+                <h1><span id='userScore'></span>%</h1>
+                <p> You got <span id='yourScore'>0</span>%, Managed to answer <span id='totalAnswers'>0</span> problems correctly out of a total of <span id='totalAttempts'></span> problems attempted in just <span id='period'>60 seconds </span>.</p>
+                
+                <div id='opponent-scores'>
+                    
+                      <div id='opponentScoreA'>
+                      </div>
+                      
+                      <div id='opponentScoreB'>
+                      </div>
+                </div>
+                <a href='./index.html'> Try Again </a>
+            </div>
+            
+            <div id='task-container'>
+                <h1 id='questionContainer'> X + Y </h1>
+                <input type='number' id='answer' placeholder='00'>
+                <button id='next-btn'> Next </button>
+            </div>
+            
+            
+        </div>
+        
+        <div id='feedback'>
+	        <h1> Please, Send Me Feedback. </h1>
+	        <small> Tell me what you think about this website. </small>
+
+	        <form name="contact" method="POST" data-netlify="true">
+               <input type='email' name='email' class='i-box' placeholder='Your Email Address (optional)'>
+               <input name='name' type='text' class='i-box' placeholder='First Name (optional)'>
+               <textarea name='message' class='i-box' placeholder='Type Your Message...' required></textarea>
+               <input type='submit' value='Send Message'>
+          </form>
+          
+      </div>
+        
+    <footer>
+	    <p> Created With <i class='fa fa-heart'></i> by <a target='_blank' href='https://www.twitter.com/stevensanie'>Steven</a></p>
+	    <a href='https://www.twitter.com/stevensanie' target='_blank'><i class='link-icon fa fa-twitter'></i></a>
+	    <a href='https://www.github.com/stevenzulu/' target='_blank'><i class='link-icon fa fa-github'></i></a>
+	    <a href='https://wa.me/+260960441583' target='_blank'><i class='link-icon fa fa-whatsapp'></i></a>   
+	    <p><a href='https://stevenjr.netlify.app/privacy-policy.html' target='_blank'> Privacy Policy </a></p> 
+	    <p> &copy 2020 - All Rights Reserved </p>
+	  </footer>
+	  
+    <script src='./index.js'></script>
+    </body>
+</html>
