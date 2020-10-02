@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179520923-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179520923-1');
+</script>
+
+
+	  <meta charset='utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'>
+      <meta name='decription' content='StevenJr | See my simple made portfolio'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        
+      <script src="https://kit.fontawesome.com/9cf9677c46.js" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link rel='stylesheet' href='./main.css'>
+      <link rel='stylesheet' href='../styles/main.css'>
+      <title> Steve - StudyPlanner </title>  
+	</head>
+	
+	<body>
+	    <header>
+	    <h1><span id='ste'>Ste</span><span id='ven'>Ven</span><small> Study Planner </small></h1>
+	    
+	    <nav id='top-nav'>
+	      <ul>
+	        <li> <a href='#feedback'> <i class='fa fa-envelope'></i></a> </li>
+	        <li> <a href='https://www.twitter.com/stevensanie' target='_blank'> <i id='menu-btn' class='fa fa-twitter'></i></a></li>
+	        <li><a href='../index.html'> <i class='fa fa-home'></i></a> </li>
+	      </ul>
+	      
+	    </nav>
+	    
+	  </header>
+	    
+	    <div id='intro'>
+	        <h1>Plan Your Studies Here, For Free!</h1>
+    	      <img src='./girl_on_desk.jpg' alt='picture of a student'>
+    	      <p> With this simple tool, that uses simple web browser technology, plan your studies, with us for free and prepare for your upcoming exams.</p>
+	    </div>
+	    
+	    <main id='main-container'>
+	        <div id='form-container'>
+	            <ul>
+	                <li>Enter the total number of days remaining before your exam.</li>
+	                <li>Then enter the number of subjects you study.</li>
+	                <li>Tap on <b>Submit</b> and get instant results on how you must study to be ready before the exams. </li>
+	            </ul>
+	            
+	            <form action='#plan-suggestions'>
+	                <input class='i-box' type='number' value='' id='remaining-days' placeholder='Days Remaining.' required>
+	                <input class='i-box' type='number' value='' id='number-of-subjects'  placeholder='Number Of Subjects.' required>
+	                <input type='submit' id='submit-1' value='Next Step'>
+	            </form>
+	 
+	        </div>
+	        
+	        <div id='plan-suggestions'>
+	            <h1> Generated Suggestions </h1>
+	            <h3> Here is what our suggestions are, based on your entries. </h3>
+	            <div id='results'>
+	                <p> If you have <span id='r-days'>X</span> days remaining before your exams,
+	                and you have <span id='subjects'>X</span> subjects, this means that:</p>
+	                
+	                <ul>
+	                    <li> You have <span id='days-per-subject'> X </span> days to study for each subject. </li>
+	                </ul>
+	                
+	                <p> Want to know the number of topics to cover a day to be ready for your exams?
+	                
+	                <div id='topic-form'>
+	                <form action='#results-2'>
+	                    <small> Enter the total number of topics you have in a particula subject below. </small>
+	                    <input class='i-box' type='text' id='subject' placeholder='Subject Name' required>
+	                    <input class='i-box' type='number' id='topics' placeholder='Number Of Topics' required>
+	                    <input type='submit' class='go-btn' id='submit-2' value='See Results'>
+	                </form>
+	                </div>
+	                    
+	                <div id='results-2'>
+	                    <h3> Based on the number of topics you have given us:</h3>
+	                    <ul>
+	                        <li>You have to cover <span id='t-topics'> X </span> topic(s)
+	                        a day in <span id='subject-name'> [Subject Name] </span> for <span id='days-p-subject'> X </span> days
+	                        straight.</li>
+	                        <!-- <li> In short, just cover <span id='rounded-off'> X </span> topic(s) a day.</li> -->
+	                    </ul>
+	                </div>
+	                
+	        </div>
+	    </main>
+	    
+	    
+	    
+	    <div id='feedback'>
+	        <h1> Please, Send Me Feedback. </h1>
+	        <small> Tell me what you think about this website. </small>
+
+	        <form name="contact" method="POST" data-netlify="true">
+               <input type='email' name='email' class='i-box' placeholder='Your Email Address (optional)'>
+               <input name='name' type='text' class='i-box' placeholder='First Name (optional)'>
+               <textarea name='message' class='i-box' placeholder='Type Your Message...' required></textarea>
+               <input type='submit' value='Send Message'>
+          </form>
+          
+      </div>
+	    
+	    <footer>
+	    <p> Created With <i class='fa fa-heart'></i> by <a target='_blank' href='https://www.twitter.com/stevensanie'>Steven</a></p>
+	    <a href='https://www.twitter.com/stevensanie' target='_blank'><i class='link-icon fa fa-twitter'></i></a>
+	    <a href='https://www.github.com/stevenzulu/' target='_blank'><i class='link-icon fa fa-github'></i></a>
+	    <a href='https://wa.me/+260960441583' target='_blank'><i class='link-icon fa fa-whatsapp'></i></a> 
+	    <p><a href='https://stevenjr.netlify.app/privacy-policy.html' target='_blank'> Privacy Policy </a></p>   
+	    <p> &copy 2020 - All Rights Reserved </p>
+	  </footer>
+	    
+	<script src='index.js'></script>
+	</body>
+	
+</html>

@@ -1,0 +1,187 @@
+body{
+    background: #fff;
+    padding-top: 15%;
+    margin: 0%;
+}
+
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header{
+    background: #1E2323;
+    padding: 3%;
+    width: 94%;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    opacity: 0.9;
+}
+
+header a{
+    color: #fff;
+    float: right;
+    padding: 2%;
+    font-size: x-large;
+    margin-left: 3%;
+}
+
+#plan-suggestions{
+    display: block; 
+    /* change the above code */
+}
+
+.logo{
+    font-weight: 600;
+    padding: 2%;
+    float: left;
+}
+
+#study{
+    color: #127E9D;
+    border-bottom: 2px solid #127E9D;
+}
+
+
+#planner{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+#intro{
+    padding: 3%;
+    text-align: center;
+}
+
+#intro h1{
+    font-weight: 400;
+    color: #4D5052;
+}
+
+#intro img{
+    width: 100%;
+    border-radius: 10%;
+    border-bottom: 8px solid #127E9D;
+    border-top: 8px solid #127E9D;
+}
+
+main{
+    padding: 2%;
+    width: 96%;
+    background: white;
+    /* display: none; */
+}
+
+#form-container{
+    /* display: none; */
+}
+
+
+#form-container li{
+    font-family: monospace;
+    margin: 4%;
+}
+
+.i-box{
+    border: 0;
+    padding: 3%;
+    display: block;
+    margin: 3%;
+    border-bottom: 1px solid #127E9D;
+    width: 88%;
+}
+
+#topic-form{
+    /* display: none; */
+}
+
+#results-2{
+    display: none;
+    padding-top: 50%;
+    padding-bottom: 60%;
+}
+
+input[type='submit']{
+    border: 0;
+    /* float: right; */
+    width: 60%;
+    height: 40px;
+    background: #127E9D;
+    color: #fff;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 5px;
+    clear: both;
+    padding: 2%;
+    transition: 0.50s;
+}
+
+input[type='submit']:hover{
+    color: #127E9D;
+    background: #fff;
+    border: 1px solid #127E9D;
+}
+#plan-suggestions{
+    padding: 5%;
+    background: whitesmoke;
+    margin-top: 10%;
+    display: none;
+}
+
+#plan-suggestions h1{
+    color: #343737;
+    font-weight: 300;
+    text-align: center;
+}
+
+main span{
+    font-weight: 600;
+    color: #127E9D;
+}
+
+h3{
+    color: #50575A;
+}
+
+#plan-suggestions p{
+    border-left: 2px solid #127E9D;
+    padding: 2%;
+}
+
+#feedback{
+    padding: 10%;
+    padding-top: 20%;
+    text-align: center;
+}
+
+#feedback h1{
+    font-weight: 300;
+}
+
+#feedback input{
+    padding: 3%;
+}
+
+#feedback input[type='submit']{
+    background: #3D4142;
+    color: #fff;
+}
+
+footer{
+    background: #3D4142;
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+}
+
+footer a{
+    color: #1BBDCD;
+}
+
+.link-icon{
+    font-size: xx-large;
+    padding: 2%;
+    margin: 3%;
+}
