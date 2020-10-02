@@ -1,0 +1,608 @@
+body{
+    background: white;    font-family: sans-serif, tahoma, arial;
+    margin: none;
+}
+
+.all-contents-container{
+    display: none;
+}
+
+.screenError{
+    color: conflowerblue;
+    font-size: 
+}
+
+.screenError h1{
+    color: #16526B;
+    text-align: center;
+}
+
+.top-header{
+    clear: both;
+    background: #F1F1F5;
+    color: purple;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 3% 0% 3% 0%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    word-spacing: -5px;
+}
+
+.top-header #registeredAdmin{
+    float: right;
+    color: cornFlowerBlue;
+    margin-right: 4%;
+    
+}
+    
+      /* Logo styles*/
+#logo{
+    background: ;
+    line-height: 20px;
+    padding: 2%;
+    margin-left: 2%;
+}
+    
+.zed{
+        color: #094157;
+        border-bottom: 2px solid #094157;
+        font-size: medium;
+}
+.revise{
+        color: #C6490D;
+        border-bottom: 2px solid #C6490D;
+        font-size: medium;
+}
+
+
+/*responsive design*/
+@media screen and (max-width:900px){
+
+.screenError{
+    display: none;
+}
+
+.all-contents-container{
+        display: block;
+        clear: both;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        width: 100%;
+        color: #767676;
+        padding-top: 4%;
+        padding-bottom: 5%;
+        margin-bottom: 4%;
+    }
+    
+    .all-contents-container img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 4%;
+        border-radius: 2%;
+    }
+    
+    
+    
+    .all-contents-container h1{
+        color: #3E6054;
+        font-weight: 400;
+        font-size: x-large;
+        font-family: monospace, sans-serif;
+    }
+    
+    #loading{
+        color: #0BAB4F;
+        margin-top: 8%;
+        display: ;
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    #loading b{
+        color: green;
+        font-weight: 400;
+    }
+    
+    #loading p{
+        color: grey;
+        font-family: monospace;
+    }
+    
+    #first-page{
+        display: none;
+    }
+    
+    #welcoming{
+        text-align: center;
+        margin-top: 2%;
+        padding: 2%;
+    }
+    
+    #welcoming p{
+        font-size: medium;
+    }
+    
+    
+    /*Login forms*/
+    #signup-page{
+        display: block;
+    }
+    
+    
+    #login-form{
+        margin-bottom: 10%;
+        top: 5;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    #login-form input{
+        width: 90%;
+        opacity: 0.8;
+        margin: 2%;
+        padding: 2%;
+        font-family: sans-serif;
+        border: none;
+        border-bottom: 0.5px solid black;
+        font-weight: 300;
+        font-size: large;
+        color: cornflowerblue;
+        
+    }
+    
+    #login-form #submit{
+        background: #2487F3;
+        font-family: sans-serif, tahoma;
+        width: 80%;
+        color: white;
+        font-size: large;
+        border: none;
+        box-shadow: 1px 1px 5px 1px grey;
+    }
+    
+    #login-form h1{
+        font-size: x-large;
+        font-family: sans-serif, tahoma;
+        font-weight: 300;
+        color: #2487F3;
+        border-left: none;
+    }
+    
+    #errorLogIn {
+        color: red;
+        font-size: small;
+        font-family: monospace, sans-serif;
+    }
+    
+    #errorLogIn b{
+        text-decoration: underline;
+        color: red;
+        font: border;
+    }
+   
+   
+/* Home container styles*/
+#home-container{
+    display: none;
+}
+
+
+/* Quiz overview */
+
+
+#quiz-overview{
+    padding: 2%;
+    margin-top: 4%;
+    display: block;
+}
+
+#welcome-user {
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+
+#quiz-overview h2{
+    font-family: monospace;
+    font-size: large;
+    padding: 2%;
+    border-left: cornflowerBlue 4px solid;
+    background: whitesmoke;
+}
+
+#quiz-overview li{
+    color: #2F5824;
+    padding: 2%;
+    list-style-type: circle;
+    font-family: tahoma, sans-serif;
+    font-size: medium;
+    margin: 2%;
+}
+
+#quiz-overview .next{
+    background: cornFlowerBlue;
+    color: white;
+    border: none;
+    float: right;
+    height: 40px;
+    width: 50%;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5%;
+}
+
+/* */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Quiz container*/
+#quiz-container {
+    margin-top: 4%;
+    padding: 4%;
+}
+
+#quiz-container input{
+    margin: 4%;
+    border: none;
+}
+
+
+
+.question #ans2{
+    padding: 2%;
+    width: 25%;
+    border-left: #0E815D solid 2px;
+    border-right: #0E815D solid 2px;
+    border-bottom: 0.5px solid #0E815D;
+    border-top: 0.5px solid #0E815D;
+    color: #0E815D;
+    height: auto;
+    font-size: large;
+    background: whitesmoke;
+    text-align: center;
+}
+
+#quiz-container p{
+	 background: #12344C;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    font-weight: 300;
+    font-size: large;
+    font-family: sans-serif, arial, tahoma;
+}
+
+#quiz-container .qInstruction{
+	color: grey;
+	background: white;
+	font-size: small;
+}
+
+#quiz-container label{
+    color: cornflowerBlue;
+    font-family: sans-serif, arial, tahoma;
+    font-size: medium;
+}
+
+#quiz-container #subjectContainer{
+	  width: 10.5%;
+    padding: 1.5%;
+    font-size: small;
+    background: #ADD7C7;
+    border-radius: 20px 20px 0px 0px;
+    display: none;
+    
+}
+
+#quizBreak {
+	display: none;
+	padding: 2%;
+	text-align: center;
+	color: black;
+	margin-bottom: 20%;
+}
+
+#quizBreak .leftButton{
+    background: #139B71;
+    color: white;
+    border: none;
+    position: relative;
+    opacity: 0.8;
+    left: 0;
+    float: left;
+    line-height: 40px;
+    width: 30%;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5%;
+    bottom: 6%;
+    margin-bottom: 2%;
+}
+
+#quizBreak .next{
+    background: #D66708;
+    color: white;
+    border: none;
+    position: relative;
+    opacity: 0.8;
+    right: 0;
+    float: right;
+    height: 40px;
+    width: 40%;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5%;
+    bottom: 6%;
+}
+
+#quizBreak h1{
+	text-align: center;
+}
+
+#quizBreak #score{
+    background: #19825B;
+    color: white;
+    padding: 2%;
+    border-bottom: 3px solid #D66708;
+    border-radius: 4%;
+}
+.quote{
+	background: whitesmoke;
+	color: #326269;
+	padding: 2%;
+	margin-top: 4%;
+	border-left: 4px solid #D66708;
+}
+
+.quote q{
+	font-size: large;
+	font-family: monospace;
+}
+
+.quote i{
+	color: black;
+}
+
+/* countdown animation */
+.timer{
+    position: relative;
+    color: #D66708;
+    background: white;
+    padding: 0.5%;
+    width: 10%;
+    text-align: center;
+    height: 20px;
+    float: right;
+    font-size: large;
+}
+
+.qNumber{
+    position: relative;
+    float: left;
+    font-size: large;
+}
+
+#quiz-container #ans11{
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: medium;
+    padding: 2%;
+    color: cornflowerblue;
+    background: whitesmoke;
+    border: 2px;
+    border-bottom: 2px solid cornflowerblue;
+}
+
+
+.qNumber p{
+    text-align: center;
+    font-size: large;
+    color: #117C90;
+}
+.qInfo{
+    background: whitesmoke;
+    color: grey;
+    position: relative;
+    width: 95%;
+    height: 20px;
+    padding: 2%;
+    border-left: #0E815D 4px solid;
+}
+.ansSubmit{
+    color: white;
+    background: #69BD6F;
+    border: none;
+    width: 50;
+    height: 40px;
+    font-weight: 500;
+    font-size: medium;
+    float: right;
+    bottom: 10%;
+    position: fixed;
+    right: 2%;
+    
+}
+
+.question{
+    display: none;
+}
+
+/*loading reaults*/
+#resultsLoader{
+    display: none;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+#srb{
+    display: none;
+}
+
+#resultsLoader h3{
+    transition: 3s;
+    color: black;
+    font-size: x-small;
+    font-weight: 400;
+}
+
+#loading_results{
+    display: block;
+    background: #228C64;
+    color: white;
+    height: 20px;
+    margin-bottom: 3%;
+    width: 0%;
+}
+
+#resultsLoader.next{
+    display: none;
+}
+
+#finalResults li{
+    color: #2F5824;
+    padding: 2%;
+    list-style-type: circle;
+    font-family: tahoma, sans-serif;
+    font-size: medium;
+    margin: 2%;
+}
+
+#finalResults img{
+    margin-bottom: 20%;
+}
+
+#finalResults {
+    display: none;
+}
+
+#finalResults h1{
+    text-align: center;
+}
+
+#finalResults #cwuof{
+    color: white;
+    background: #0F215B;
+    line-height: 20px;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+.next{
+    display: block;
+    clear: both;
+    background: #D66708;
+    color: white;
+    border: none;
+    position: fixed;
+    right: 0;
+    float: right;
+    height: 40px;
+    width: 40%;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5%;
+    margin-bottom: 5%;
+    bottom: 6%;
+}
+
+.nextLink{
+    background: cornFlowerBlue;
+    text-align: center;
+    color: white;
+    border: none;
+    position: fixed;
+    right: 2%;
+    float: right;
+    line-height: 40px;
+    padding: 0% 2% 0% 2%;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5%;
+    bottom: 6%;
+    margin-bottom: 5%;
+}
+
+
+.leftButton{
+    background: #139B71;
+    text-align: center;
+    color: white;
+    border: none;
+    position: fixed;
+    left: 2%;
+    float: left;
+    line-height: 40px;
+    padding: 0% 2% 0% 2%;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5%;
+    bottom: 6%;
+    margin-bottom: 5%;
+}
+
+#ysi{
+    margin: 0;
+    color: #248B8D;
+}
+
+#thyew {
+    text-align: center;
+}
+
+#finalResults #finalScore{
+    color: #75D883;
+    font-size: 5em;
+    text-align: center;
+    background: ;
+    margin: 0;
+    border-bottom: #D87D17 solid 2px;
+}
+
+#finalScore sub{
+    color: #9FB945;
+    font-size: medium;
+}
+/* Bottom logo style*/
+#bottom-logo{
+        background: #225F6A;
+        opacity: 0.9;
+        height: 20;
+        word-spacing: -5px;
+        font-family: sans-serif;
+        font-size: medium;
+        position: fixed;
+        padding: 2%;
+        width: 98%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: none;
+        clear: both;
+        margin-top: 4%;
+        z-index: 0;
+    }
+    
+    #bottom-logo #zed{
+        color: white;
+        font-weight: 400;
+        margin-left: 2%;
+        border-bottom: orangeRed solid 2px;
+    }
+    
+    #bottom-logo #cademy{
+        color: orangered;
+        font-weight: 400;
+        border-bottom: white solid 2px;
+    }
+    

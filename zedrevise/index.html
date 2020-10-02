@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179520923-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179520923-1');
+</script>
+
+	  
+		<title>ZedRevise 1.0 - Test Your Knowledge</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="utf-8" />
+		<link rel="icon" href="https://cdn.pixabay.com/photo/2017/03/14/21/07/logo-2144403_1280.png" />
+		<link rel="stylesheet" href="index.css" />
+		<script data-ad-client="pub-8250615035509680" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-162270866-1"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+
+	</head>
+	<body onload="checkUser()">
+		<header class="top-header">
+			<span id="logo">
+				<b class="zed">Zed</b>
+				<b class="revise">Revise</b>
+			</span>
+			<span id="registeredAdmin">...</span>
+		</header>
+		<nav id="top-nav"></nav>
+		<div class="all-contents-container">
+			<div id="loading">
+				<b>Loading Page...</b>
+				<img src="./loader.gif" />
+
+				<p>Good things come to those who wait.</p>
+			</div>
+			<div id="first-page">
+				<div id="welcoming">
+					<h1>Welcome to <b class="zed">Zed</b><b class="revise">Revise</b></h1>
+					<img src="../images/girl-studying.png" alt="Learn On Your Phone! - Use Data To See Image" />
+
+					<p>With simple browser technology, you can do more with your smartphone.</p>
+					<p>Test Yourself with the sum of 20 questions from Biology, Chemistry, English, Physics & Civic Education!</p>
+				</div>
+				<div id="signup-page">
+					<!-- Login forms -->
+					<div id="login-form">
+						<h1>Get Started!</h1>
+						<p id="errorLogIn"></p>
+						<input type="text" maxlength="10" placeholder="First Name" id="user-firstName" />
+
+						<!-- <input type="text" maxlength="10" placeholder="Last Name" id="user-lastName" /> -->
+
+						<p>
+						    Your first name will only be stored on your phone and only you will be able to see it.
+						</p>
+						<input type="submit" value="Next" onclick="logIn()" id="submit" />
+
+					</div>
+				</div>
+			</div>
+			<div id="home-container">
+				<div id="quiz-overview">
+				    <h1 id='welcome-user'></h1>
+					<img src="../images/math.png" alt='illustration of male student learning math'>
+
+					<h2>Your Questions Are Ready!</h2>
+					<ul>
+						<li>The quiz has 20 questions altogether.</li>
+						<li>Each question carries 5 points</li>
+						<li>You will be given a count-down timer when answering to restrict cheating</li>
+						<li>All the questions have multiple choices.</li>
+						<li> Some questions involve some calculations. Therefore be with a pencil and a book or paper</li>
+						<li> This is just a <b>Beta</b> version of this program. Your feedback will really mean alot. </li>
+					</ul>
+					<button class="next" onclick="startQuiz()">Start Quiz</button>
+				</div>
+				<div id="quiz-container">
+					
+					<!-- First question -->
+					<div class="question">
+						<!-- Count down animation -->
+						<div class="qInfo">
+							<span class="qNumber">Question  1 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p>
+							<b>Autotrophic Nutrition</b>
+							is a type of nutrition where an organism makes it own food.
+
+						</p>
+						<div id="answers1">
+							<input type="radio" class="ans1" value="true" name="tf" /> <label> True</label> <br>
+
+							<input type="radio" class="ans1" value="false" name="tf" />
+
+							<label>False</label>
+
+							<br />
+
+						</div>
+						
+					</div>
+					<!-- Question 2 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  2 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p>
+							How many Optional Protocols does the International
+							Covenant on Civil and Political Rights contain??
+
+						</p>
+						<input type='radio' name='ans2' class='ans2'> <label> 4 </label> <br>
+						<input type='radio' name='ans2' class='ans2'> <label> 6 </label> <br>
+						<input type='radio' name='ans2' class='ans2'> <label> 2 </label> <br>
+						<input type='radio' name='ans2' class='ans2'> <label> 32 </label> 
+
+					</div>
+					<!-- Question 3 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  3 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'>The image below shows five different cells seen through a microscope.</p>
+						<img src="./image_question3.jpg" />
+
+						<p>
+							Which
+
+							<b>two</b>
+							cells are plant cells?
+
+						</p>
+						<input type="radio" name="q3" class="ans3" value="1&2" />
+
+						<label>1 and 2</label>
+						<br />
+
+						<input type="radio" name="q3" class="ans3" value="1&2" />
+
+						<label>2 and 3</label>
+						<br />
+
+						<input type="radio" name="q3" class="ans3" value="1&2" />
+
+						<label>3 and 4</label>
+						<br />
+
+						<input type="radio" name="q3" class="ans3" value="1&2" />
+
+						<label>4 and 5</label>
+						<br />
+
+					</div>
+					<!-- Question 4 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  4 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p>When was the <b>Universal Decleration</b> adopted by the United Nations?
+						</p>
+						<input type="radio" class="ans4" name="ans4"> <label> 10 March, 1948</label> <br>
+						<input type="radio" class="ans4" name="ans4"> <label> 10 December, 1948</label> <br>
+						<input type='radio' class='ans4' name='ans4'> <label> 10 July, 1946</label> <br>
+						<input type='radio' class='ans4' name='ans4'> <label> 10 August, 1946</label>
+
+					</div>
+					
+					
+					<!-- Question 5 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  5 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'>The diagram below shows a part of a <b>vernier calliper</b>.</p>
+						<img src='./image_question5.jpg'>
+						<p> What is the correct reading? </p>
+						<input type="radio" class="ans5" name="ans5"> <label> 2.25cm </label> <br>
+						<input type="radio" class="ans5" name="ans5"> <label> 1.46cm</label> <br>
+						<input type="radio" class="ans5" name="ans5"> <label> 2.54cm</label> <br>
+						<input type="radio" class="ans5" name="ans5"> <label> 2.36cm</label> <br>
+					</div>
+					
+					
+					<!-- Question 6 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  6 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p>A <b>Condenser</b> is used in distillation experiments to turn...</p>
+						<input type="radio" class="ans6" name="ans6"> <label> liquid into solid </label> <br>
+						<input type="radio" class="ans6" name="ans6"> <label> gas into liquid </label> <br>
+						<input type="radio" class="ans6" name="ans6"> <label> vapour into liquid </label> <br>
+						<input type="radio" class="ans6" name="ans6"> <label> vapour into gas </label> <br>
+					</div>
+					
+					<!-- question 7 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  7 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'> Chose the best answer to fill the blank space</p>
+						<p> <b>Five boys</b> shared the oranges _________ themselves. </p>
+						<input type="radio" class="ans7" name="ans7"> <label> within </label> <br>
+						<input type="radio" class="ans7" name="ans7"> <label> to </label> <br>
+						<input type="radio" class="ans7" name="ans7"> <label> between </label> <br>
+						<input type="radio" class="ans7" name="ans7"> <label> among </label> <br>
+					</div>
+					
+					<!-- question 8 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  8 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p> What is <b>39°c</b> in <b>Kelvin</b>? </p>
+						<input type="radio" class="ans8" name="ans8"> <label> 273K </label> <br>
+						<input type="radio" class="ans8" name="ans8"> <label> -234K </label> <br>
+						<input type="radio" class="ans8" name="ans8"> <label> 312K </label> <br>
+						<input type="radio" class="ans8" name="ans8"> <label> 320K </label> <br>
+					</div>
+					
+					<!-- question 9 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  9 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p> When a person is <b>given</b> a <b>chance</b> by a judge to provide reasons for a <b>lenient
+						sentecing</b> is what we call... </p>
+						
+						<input type="radio" class="ans9" name="ans9"> <label> Mitigation </label> <br>
+						<input type="radio" class="ans9" name="ans9"> <label> Sentencing </label> <br>
+						<input type="radio" class="ans9" name="ans9"> <label> Judgement</label> <br>
+						<input type="radio" class="ans9" name="ans9"> <label> Trial </label> <br>
+					</div>
+					
+					<!-- question 10 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  10 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p>The anti corruption commission is an <b>autonomous</b> institution. <br>
+							 What does this mean? </p>
+						
+						<input type="radio" class="ans10" name="ans10"> <label> The <b>ACC</b> can prosecute. </label> <br>
+						<input type="radio" class="ans10" name="ans10"> <label> The <b>ACC</b> can govern itself.</label> <br>
+						<input type="radio" class="ans10" name="ans10"> <label> The <b>ACC</b> can investigate. </label> <br>
+						<input type="radio" class="ans10" name="ans10"> <label> None Is Correct. </label> <br>
+					</div>
+					
+					<!-- question 11 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  11 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'> The image below shows a <b>circuit</b> diagram.</p>
+						<img src='./image_question11.jpg'>
+						<p> What is the value of resistor <b>R</b>? </p>
+						<input type="radio" class="ans11" name='ans11'> 6.0&#8486 <label> </label> <br>
+						<input type="radio" class="ans11" name='ans11'> 0.5&#8486 <label> </label> <br>
+						<input type="radio" class="ans11" name='ans11'> 5.0&#8486 <label> </label> <br>
+						<input type="radio" class="ans11" name='ans11'> 1.5&#8486 <label> </label> <br>
+					</div>
+					
+					<!-- question 12 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  12 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p>Which of the following is a <b>neutral oxide</b>?</p>
+						
+						<input type="radio" class="ans12" name='ans12'> Nitrogen Dioxide <label> </label> <br>
+						<input type="radio" class="ans12" name='ans12'> Carbon Dioxide <label> </label> <br>
+						<input type="radio" class="ans12" name='ans12'> Magnesium Oxide <label> </label> <br>
+						<input type="radio" class="ans12" name='ans12'> Carbon Monoxide <label> </label> <br>
+						    
+						    
+					</div>
+					
+					<!-- question 13 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  13 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p>Which of the following <b>alkanes</b> has the <b>Highest</b> boiling point?</p>
+						
+						<input type="radio" class="ans13" name='ans13'> <label> C<sub>2</sub>H<sub>6</sub> </label> <br>
+						<input type="radio" class="ans13" name='ans13'> <label> CH<sub>4</sub> <label> </label> <br>
+						<input type="radio" class="ans13" name='ans13'> <label> C<sub>4</sub>H<sub>10</sub> </label> <br>
+						<input type="radio" class="ans13" name='ans13'> <label> C<sub>3</sub>H<sub>8</sub> </label> <br>
+						    		    
+					</div>
+					
+					<!-- question 14 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  14 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p>What do we call a <b>biochemical</b> process where cells of an organism obtain <b>energy</b> by
+						 taking in <b>oxygen</b> (and glucose) resulting in the  release of <b>carbon dioxide</b>?</p>
+						
+						<input type="radio" class="ans14" name='ans14'> <label> Inspiration </label> <br>
+						<input type="radio" class="ans14" name='ans14'> <label> Respiration </label> <br>
+						<input type="radio" class="ans14" name='ans14'> <label> Photosynthesis </label> <br>
+						<input type="radio" class="ans14" name='ans14'> <label> Cell Proliferation</label> <br>	    
+					</div>
+					
+					<!-- question 15 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  15 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p> <b>Sulphur</b> can conduct electricity</p>
+						
+						<input type="radio" class="ans15" name='ans15'> <label> True </label> <br>
+						<input type="radio" class="ans15" name='ans15'> <label> False </label>
+					</div>
+					
+					<!-- question 16 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  16 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p>The following are <b>SI</b> units. <b>Except</b>?</p>
+						
+						<input type="radio" class="ans16" name='ans16'> <label> m/s </label> <br>
+						<input type="radio" class="ans16" name='ans16'> <label> N </label> <br>
+						<input type="radio" class="ans16" name='ans16'> <label> W</label> <br>
+						<input type="radio" class="ans16" name='ans16'> <label> °C </label> <br>
+					</div>
+				    
+				    <!-- question 17 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  17 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p> What's the purpose of a <b>Vacuum</b> in a <b>Thermo Flask</b>?</p>
+						
+						<input type="radio" class="ans17" name='ans17'> <label>To reduces conduction </label> <br>
+						<input type="radio" class="ans17" name='ans17'> <label>To increases radiation </label> <br>
+						<input type="radio" class="ans17" name='ans17'> <label>To increase radiation</label> <br>
+						<input type="radio" class="ans17" name='ans17'> <label> None of the above </label> <br>
+					</div>
+					
+					 <!-- question 18 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  18 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p>What is <b>true</b> about <b> Relative Density</b>?</p>
+						
+						<input type="radio" class="ans18" name='ans18'> <label> It is mass per unit volume. </label> <br>
+						<input type="radio" class="ans18" name='ans18'> <label> It has units </label> <br>
+						<input type="radio" class="ans18" name='ans18'> <label> It does not have units</label> <br>
+						<input type="radio" class="ans18" name='ans18'> <label> None is true</label> <br>
+					</div>
+					
+					<!-- question 19 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  19 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'></p>
+						<p> A group of <b>leopards</b> is known as?</p>
+						
+						<input type="radio" class="ans19" name='ans19'> <label> Troop</label> <br>
+						<input type="radio" class="ans19" name='ans19'> <label> Pride</label> <br>
+						<input type="radio" class="ans19" name='ans19'> <label> Leap</label> <br>
+						<input type="radio" class="ans19" name='ans19'> <label> Zeal</label> <br>
+					</div>
+					
+					<!-- question 20 -->
+					<div class="question">
+						<div class="qInfo">
+							<span class="qNumber">Question  20 of 20</span>
+							<span class="timer"></span>
+						</div>
+						<p class='qInstruction'>The image below shows a <b>human brain</b>.</p>
+						<img src='./image_question20.jpg'>
+						<p>On the image above, which latter represents the <b>Medulla Oblangata</b>?</p>
+						
+						<input type="radio" class="ans20" name='ans20'> <label> A</label> <br>
+						<input type="radio" class="ans20" name='ans20'> <label> C</label> <br>
+						<input type="radio" class="ans20" name='ans20'> <label> B</label> <br>
+						<input type="radio" class="ans20" name='ans20'> <label> D</label> <br>
+					</div>
+					
+				</div>
+			</div>
+				
+					<!-- quiz break -->	
+					<div id='quizBreak'>
+					    <h1> Well, Lets Take A Break! </h1>
+					    <h3 id='score'></h3>
+						<img src='../images/alone+computer.png' alt='female illustration relaxing with pc'>
+							<p> It is important to take breaks when studying or learning. Breaks reduce stress, increases your 
+							focus and can make it easy for you to retain information </p>
+							<h1>Read some quotes...</h1>
+							<div class='quote'>
+							   <q> Give a man a fish and you feed him for a day; teach a man to fish and he'll eat forever.</q>
+							   <i> - Chinese Proverb </i>
+							</div>
+							
+							<div class='quote'>
+								<q>The wise understand by themselves; fools follow the reports of others.</q>
+								<i> - Tibetan </i>
+							</div>
+							
+							<p><img src='../images/programmer-on-table.png'></p>
+							 
+							 <div class='quote'>
+							 	<q> A weapon that you don’t have in your hand will not kill a snake.</q>
+							 	<i> - African Proverb </i>
+							 </div>
+							 
+							 <img src='../images/girl-studying.png'>
+							 
+							 <div class='quote'>
+							 	<q> A mad dog bites anything except itself. </q>
+							 	<i> - African Proverb </i>
+							 </div>
+							 
+							 <!-- <img src='https://cdn.pixabay.com/photo/2017/11/28/08/33/african-women-walking-along-road-2983081_640.jpg'> -->
+							 
+							 <div class='quote'>
+							 	<q> If  everyone thought the same way, no goods would ever be sold. </q>
+							 	<i> - African Proverb </i>
+							 </div>
+							 
+							 <p> <img src'../images/build-projects.png'> </p>
+							 
+							 <h1> Time To finish the quiz! </h1>
+							 <img src='https://cdn.pixabay.com/photo/2018/10/02/11/13/girl-3718531_1280.jpg'>
+							 	<p>You have answered 10 questions and you are now remaining with 10 more questions! </p>
+							 <button onClick='question11()' class='next'> Resume Quiz </button>
+							 <!-- <a class="leftButton" href='mailto: steve3@gmail.com'>Feedback?</a> -->
+							 
+					</div>
+					
+					<div id='resultsLoader'>
+					    <h1> Congratulations!</h1> 
+					    <h1>The Quiz Is Completed! </h3>
+					    <h3 id='lrph'> Processing Your Results... </h3>
+					    <div id='loading_results'></div>
+					    <img src='https://cdn.pixabay.com/photo/2017/10/11/12/30/nigeria-2840922_640.jpg'>
+					        
+					    <button class='next' id='srb' onClick='showResults()'> Show Results </button>
+					    <a class="leftButton" href='mailto: stevenzulu123@gmail.com'>Feedback?</a>
+					    
+					</div>
+					
+					<div id='finalResults'>
+					    <h1 id='ysi'> Your Score Is... </h1>
+					    <h1 id='finalScore'></h1>
+					    
+					    <h1 id='thyew'> How Was Your Experience Using The Program? </h1>
+					    <ul>
+					        <li> Please tell us how you love or hate this program by sending us feedback. </li>
+					        <li> Tell us what we need to add or remove from this program</li>
+					        <li> <a id='cwuof' href='https://www.facebook.com/zedcademyafrica/'>Connect with us on facebook</a> </li>
+					        <li> Share to your friends! tell them to scan the <b>QR Code</b> below: </li>
+					        
+					    </ul>
+					    
+					    <h1> Share!</h1>
+					    <h1> Tell Your Friends To Scan This Code Below For Them To Play!</h1>
+					    <img src='site_qr_code.png'>
+					    <!-- <a class="leftButton" href='mailto: stevenz@gmail.com'>Send Feedback</a> -->
+					    <a class="nextLink" href='./index.html'>Play Quiz Again</a>
+					    
+					    
+					</div>
+		</div>
+		
+		<div id="bottom-logo">
+						<b id="zed">Zed</b>
+						<b id="cademy">Cademy</b>
+					</div>
+					
+					<div class='screenError'>
+					    <h1> Sorry,</h1>
+					    <h1> The program cannot run well on a larger screen.</h1>
+					    <h1> Try it on another tablet or a mobile phone. Or just resize your browser window's width. </h1>
+					
+					<script src="index.js"></script>
+	</body>
+</html>
