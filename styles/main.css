@@ -1,0 +1,323 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* font-family: sans-serif; */
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  background: #fff;
+  padding-top: 18%;
+}
+
+p{
+  margin: 2%;
+  padding: 2%;
+  font-family: sans-serif;
+  font-size: medium;
+  /* color: #35393A; */
+}
+
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+button{
+  border: 0;
+}
+
+button i{
+  float: right;
+}
+
+header{
+  background: #131415;
+  color: #fff;
+  opacity: 0.9;
+  padding: 3%;
+  position: fixed;
+  width: 94%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+header h1{
+  float: left;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+header #ste{
+  color: #00BFA6;
+  border-bottom: 2px solid #fff;
+}
+
+header #ven{
+  color: #fff;
+  border-bottom: 2px solid #00BFA6;
+}
+
+header small{
+  font-size: xx-small;
+  display: block;
+  margin-top: 3%;
+  width: 100%;
+}
+
+header #top-nav{
+  display: ;
+  /* padding: 2%; */
+  background: #1F4622;
+  /* float: right; */
+}
+
+#top-nav li{
+  display: inline;
+  float: right;
+  margin-left: 3%;
+  padding: 2%;
+}
+
+#top-nav i{
+  color: #fff;
+  font-size: x-large;
+}
+
+#intro{
+  width: 94%;
+  padding: 3%;
+  min-height: 100%;
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+}
+
+#intro h1{
+  font-weight: 400;
+}
+
+#intro p{
+  color: grey;
+  font-weight: 400;
+  padding: 3%;
+}
+
+#feedback{
+    padding: 10%;
+    padding-top: 20%;
+    text-align: center;
+}
+
+#feedback h1{
+    font-weight: 300;
+    font-family: sans-serif;
+    padding: 3%;
+}
+
+#feedback input{
+    padding: 3%;
+}
+
+#feedback input[type='submit']{
+    background: #3D4142;
+    color: #fff;
+}
+
+
+.i-box{
+    border: 0;
+    padding: 3%;
+    display: block;
+    margin: 3%;
+    border-bottom: 1px solid #127E9D;
+    width: 88%;
+}
+
+input[type='submit']{
+    border: 0;
+    /* float: right; */
+    width: 60%;
+    height: 40px;
+    background: #127E9D;
+    color: #fff;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 5px;
+    clear: both;
+    padding: 2%;
+    transition: 0.50s;
+}
+
+input[type='submit']:hover{
+    color: #127E9D;
+    background: #fff;
+    border: 1px solid #127E9D;
+}
+
+.go-btn{
+  color: #fff;
+  background-color: #00BFA6;
+  font-size: large;
+  font-weight: 700;
+  width: 60%;
+  height: auto;
+  text-align: left;
+  padding: 3%;
+  margin: 3%;
+  border-radius: 5px;
+}
+
+.container{
+  padding: 2%;
+}
+
+#quote-container #quote{
+  color: #778081;
+  padding: 3%;
+  font-family: monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+#author{
+  color: #86898A;
+  text-align: center;
+  margin: 3%;
+}
+
+
+#overview{
+  padding: 3%;
+  color: #4F5055;
+}
+
+#overview h1, #project-container h1{
+  color: grey;
+  border-left: 4px solid #00BFA6;
+  padding: 2%;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+#project-container{
+  padding: 5%;
+}
+
+.project{
+  background: whitesmoke;
+  text-align: center;
+  /* border: 2px solid red; */
+  border-radius: 5%;
+  padding: 5%;
+  margin: 5%;
+}
+
+.project img{
+  width: 50%;
+}
+
+.project h2{
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: 400;
+  border: none;
+  color: #0D4F58;
+  margin: 3%;
+}
+
+.project .go-btn{
+  background: #00BFA6;
+  border: 0;
+  width: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.project a{
+  display: block;
+  background: #fff;
+  color: #13888A;
+  padding: 3%;
+  height: auto;
+  text-align: center;
+  padding: 3%;
+  margin: 3%;
+  border: 1px solid #13888A;
+  border-radius: 5px;
+}
+
+.project i{
+  color: #A0A7A7;
+  font-size: 5em;
+  margin: 3%;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+#questions{
+  padding: 5%;
+  font-family: sans-serif;
+}
+
+#questions ol{
+  padding: 3%;
+  margin: 3%;
+}
+
+#questions li{
+  margin-top: 5%;
+}
+
+#questions label{
+  color: #54595A;
+  font-family: monospace;
+  /* margin: 2%; */
+}
+
+#questions input[type='radio']{
+  border: none;
+  background: red;
+  color: green;
+  padding: 3%;
+}
+
+main {
+  background: whitesmoke;
+  padding: ;
+}
+
+main h1{
+  color: #545858;
+  text-align: center;
+  font-family: monospace;
+}
+
+
+footer{
+    background: #3D4142;
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer a{
+    color: #00BFA6;
+}
+
+footer .link-icon{
+    font-size: xx-large;
+    padding: 2%;
+    margin: 3%;
+}
