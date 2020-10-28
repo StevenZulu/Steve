@@ -14,8 +14,8 @@ $(function (){
                 
                 //generate random numbers
                 function generateNumbers(){
-                    randomNumberX = Math.floor(Math.random() * 25);
-                    randomNumberY = Math.floor(Math.random() * 25);
+                    randomNumberX = Math.floor(Math.random() * 30);
+                    randomNumberY = Math.floor(Math.random() * 30);
                     rightAnswer = randomNumberX + randomNumberY;
                     
                     $('#questionContainer').text(`${randomNumberX} + ${randomNumberY}`)
@@ -56,8 +56,8 @@ $(function (){
                             $('#task-container').fadeOut(10);
                             $('#userScore').text(localStorage.score);
                             $('#yourScore').text(localStorage.score);
-                            $('#opponentScoreA').html('Steven Got: <br> ' + opponentScoreA + '%');
-                            $('#opponentScoreB').html('Leonard Got: <br> ' + opponentScoreB + '%');
+                            $('#opponentScoreA').html('Nathan Got: <br> ' + opponentScoreA + '%');
+                            $('#opponentScoreB').html('Mongwa Got: <br> ' + opponentScoreB + '%');
                             $('#totalAnswers').text(totalAnswers);
                             $('#totalAttempts').text(totalAttempts);
                             clearInterval(timeInterval);
