@@ -1,8 +1,8 @@
 $(function (){
                 localStorage.score = 0;
                 totalAnswers = 0;
-                opponentScoreA = Math.floor(Math.random() * 200);
-                opponentScoreB = Math.floor(Math.random() * 200);
+                opponentScoreA = Math.floor(Math.random() * 100);
+                opponentScoreB = Math.floor(Math.random() * 100);
                 
                 //display instructions container
                 $('#help').on('click', function(){
