@@ -14,8 +14,8 @@ $(function (){
                 
                 //generate random numbers
                 function generateNumbers(){
-                    randomNumberX = Math.floor(Math.random() * 25);
-                    randomNumberY = Math.floor(Math.random() * 25);
+                    randomNumberX = Math.floor(Math.random() * 20);
+                    randomNumberY = Math.floor(Math.random() * 20);
                     rightAnswer = randomNumberX + randomNumberY;
                     
                     $('#questionContainer').text(`${randomNumberX} + ${randomNumberY}`)
