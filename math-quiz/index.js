@@ -56,8 +56,8 @@ $(function (){
                             $('#task-container').fadeOut(10);
                             $('#userScore').text(localStorage.score);
                             $('#yourScore').text(localStorage.score);
-                            $('#opponentScoreA').html('Alexander Got: <br> ' + opponentScoreA + '%');
-                            $('#opponentScoreB').html('Mongwa Got: <br> ' + opponentScoreB + '%');
+                            $('#opponentScoreA').html('Carol Got: <br> ' + opponentScoreA + '%');
+                            $('#opponentScoreB').html('Sally Got: <br> ' + opponentScoreB + '%');
                             $('#totalAnswers').text(totalAnswers);
                             $('#totalAttempts').text(totalAttempts);
                             clearInterval(timeInterval);
