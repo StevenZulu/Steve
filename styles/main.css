@@ -1,4 +1,5 @@
-*{
+@media max-width(600px;){
+  *{
   padding: 0;
   margin: 0;
   /* font-family: sans-serif; */
@@ -320,4 +321,6 @@ footer .link-icon{
     font-size: xx-large;
     padding: 2%;
     margin: 3%;
+}
+
 }
