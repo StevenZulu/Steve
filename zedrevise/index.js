@@ -10,7 +10,7 @@ const redirect =
     `)
 
 if (redirect == true) {
-        location.href = 'https://zedrevsie.netlify.app/'
+        location.href = 'https://zedrevise.netlify.app/'
 } else {
     alert('You are using an outdated version of ZedRevise')
     }
