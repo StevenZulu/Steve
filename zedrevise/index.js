@@ -3,6 +3,18 @@
 You can help me how i can improve my coding skills if
  at all you would like! email: stevenzulu123@gmail.com */
 
+//  redirect to the latest ZedRevise
+const redirect =
+    confirm(`
+        This is the old version of ZedRevise. You will be redirected to the newer version of ZedRevise.
+    `)
+
+if (redirect == true) {
+        location.href = 'https://zedrevsie.netlify.app/'
+} else {
+    alert('You are using an outdated version of ZedRevise')
+    }
+
 //Essential global variables
 let first_name = document.getElementById('user-firstName').value;
 let firstName = localStorage.fName;
