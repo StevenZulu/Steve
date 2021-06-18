@@ -113,6 +113,19 @@
 	    <p><a href='https://stevenjr.netlify.app/privacy-policy.html' target='_blank'> Privacy Policy </a></p>   
 	    <p> &copy 2020 - All Rights Reserved </p>
 	  </footer>
+	<script>
+		const redirect =
+    	confirm(`
+			This website was built on a mobile phone when I had no PC. 
+			You will be redirected to a newer version of this website. 
+    	`)
+
+		if (redirect == true) {
+				location.href = 'https://sanie.netlify.app/'
+		}else{
+			alert('You are using an outdated version of ZedRevise')
+		}
+	</script>
 	<script src='./scripts/main.js'></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</body>
